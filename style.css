@@ -1,0 +1,36 @@
+body {
+	cursor: pointer;
+	background-image: url(mainbg.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	color: white;
+	font-family: 'Fredericka the Great', cursive;
+	/*font-family: 'IM Fell English SC', serif;*/
+	font-size: 20px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+} 
+a:hover{
+	opacity:0.7;
+}
+.navbar{
+	padding: 0.25rem 1rem;
+}
+.navibtn{
+	background-color: rgba(0,0,0,0.8);
+ 	position: absolute;
+ 	left:50%;
+ 	margin-top:23px;
+ 	border:none;
+ 	border-radius: 0;
+}
+.navibtn:focus{
+	outline:0;
+}
+.navbar-dark{
+	background-color: rgba(0,0,0,0.8);
+}
